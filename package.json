@@ -1,0 +1,20 @@
+{
+  "name": "js-how-to-walk",
+  "version": "1.0.0",
+  "description": "",
+  "main": "compile.js",
+  "scripts": {
+    "watch": "nodemon -w src/**/*.js -w compile.js compile.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dlschmidt/js-how-to-walk.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/dlschmidt/js-how-to-walk/issues"
+  },
+  "homepage": "https://github.com/dlschmidt/js-how-to-walk#readme"
+}

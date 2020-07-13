@@ -11,16 +11,27 @@ async function main() {
         let lines = text.includes("\r\n") ? text.split("\r\n") : text.split("\n");
     
         let lastLineEmpty = false;
+        let lineForward = false;
+
         lines = lines.map(line => {
-            if(line.startsWith("//")) {
+            let result = "";
+            if(line.startsWith("//") || lineForward) {
                 lastLineEmpty = false;
-                return line;
+                result = line;
             } else if(lastLineEmpty) {
-                return undefined;
+                result = undefined;
             } else {
                 lastLineEmpty = true;
-                return "";
+                result = "\n";
             }
+
+            if(line.endsWith("\\")) {
+                result = result.substring(0, result.length - 2);
+                lineForward = true;
+            } else {
+                lineForward = false;
+            }
+            return result;
         });
         lines = lines.filter(line => line != undefined);
         lines = [

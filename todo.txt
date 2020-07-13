@@ -1,0 +1,8 @@
+
+Mwst.-Berechnung? / Zinsberechnung
+Zufallslotterie
+ein paar Algorithmen (Fakultät, Fibonacci)
+Classes - Autohändler
+Classes -> Math-Lib: Flächeninhalte von zweidimensionalen Objekten
+Rekursion
+
