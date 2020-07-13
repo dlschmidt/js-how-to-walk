@@ -4,7 +4,8 @@
   "description": "",
   "main": "compile.js",
   "scripts": {
-    "watch": "nodemon -w src/**/*.js -w compile.js compile.js"
+    "watch": "nodemon -w src/**/*.js -w compile.js compile.js",
+    "update": "git stash && git pull origin master && git stash pop"
   },
   "repository": {
     "type": "git",

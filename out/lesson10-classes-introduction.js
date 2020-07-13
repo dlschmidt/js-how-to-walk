@@ -7,7 +7,7 @@
 // Der Konstruktor soll folgende Eigenschaften abspeichern
 // - Hersteller
 // - Kennzeichen
-// - Farbwert in RGB / Hex (z.B. 0xFF0000)
+// - Farbwert als RGB-Array (z.B. [255, 128, 0])
 // - Nettopreis in Euro
 
 
@@ -20,8 +20,8 @@
 // Gib über die Konsole jeweils Kennzeichen, Nettopreis und Bruttopreis (+16%) aus
 
 
-// Liste alle Fahrzeuge auf, die ein hallisches Kennzeichen aufweisen
+// Liste alle Fahrzeuge auf, die ein hallisches Kennzeichen aufweisen. Nutze dafür cars.filter(...) und car.startsWith(...)
 
 
-// Liste alle Kennzeichen der Fahrzeuge auf, die rötlich sind (R > 50%; G, B < 50%)
+// Liste alle Kennzeichen der Fahrzeuge auf, die rötlich sind (R > 128; G, B < 128)
 
