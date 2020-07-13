@@ -14,7 +14,7 @@
 // Erstelle eine Liste namens 'cars'
 
 
-// Füge zu dieser Liste drei belibige Fahrzeuge hinzu
+// Füge zu dieser Liste fünf belibige Fahrzeuge hinzu
 
 
 // Gib über die Konsole jeweils Kennzeichen, Nettopreis und Bruttopreis (+16%) aus

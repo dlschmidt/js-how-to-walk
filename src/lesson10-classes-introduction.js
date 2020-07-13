@@ -18,11 +18,13 @@ class Car {
 // Erstelle eine Liste namens 'cars'
 let cars = [];
 
-// Füge zu dieser Liste drei belibige Fahrzeuge hinzu
+// Füge zu dieser Liste fünf belibige Fahrzeuge hinzu
 cars.push(
     new Car("Audi", "HAL AB 123", 0xFFAABB, 31200),
     new Car("MB", "HAL XZ 312", 0x33FF00, 21000),
-    new Car("Porsche", "B 9123", 0x222222, 25000)
+    new Car("Porsche", "B 9123", 0x222222, 53000),
+    new Car("Opel", "MS KI 221", 0xEE2233, 18000),
+    new Car("Tesla", "X AEA 12", 0xEE4433, 45000)
 );
 
 // Gib über die Konsole jeweils Kennzeichen, Nettopreis und Bruttopreis (+16%) aus
