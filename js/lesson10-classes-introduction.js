@@ -25,3 +25,9 @@
 
 // Liste alle Kennzeichen der Fahrzeuge auf, die rötlich sind (R > 128; G, B < 128)
 
+
+// Füge zum Auto eine Methode "paint" mit den Argumenten R, G und B hinzu, welche die Farbe des Autos überschreibt
+
+
+// Erstelle eine Klasse namens "Truck", welche vom Typ "Car" erbt und eine zusätzliche Eigenschaft "load" enthält
+

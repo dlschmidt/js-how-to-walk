@@ -13,6 +13,10 @@ class Car {
         this.color = color;
         this.net_price = net_price;
     }
+
+    paint(r, g, b) {
+        this.color = [r, g, b];
+    }
 }
 
 // Erstelle eine Liste namens 'cars'
@@ -39,3 +43,13 @@ console.log(cars.filter(car => car.licence_plate.startsWith("HAL")));
 console.log(cars.filter(car => {
     return car.color[0] > 128 && car.color[1] < 128 && car.color[2] < 128;
 }));
+
+// Füge zum Auto eine Methode "paint" mit den Argumenten R, G und B hinzu, welche die Farbe des Autos überschreibt
+
+// Erstelle eine Klasse namens "Truck", welche vom Typ "Car" erbt und eine zusätzliche Eigenschaft "load" enthält
+class Truck extends Car {
+    constructor(manufacturer, license_plate, color, net_price, load) {
+        super(manufacturer, license_plate, color, net_price);
+        this.load = load;
+    }
+}

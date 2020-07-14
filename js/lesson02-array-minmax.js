@@ -3,8 +3,7 @@
 //////////////////////////////////////////
 
 
-// Gegeben ist ein Array mit beliebigen Zahlen
-let arr = [5, 1, 6, 3, 4, 7, 8];
+// Gegeben ist ein Array [5, 1, 6, 3, 4, 7, 8]
 
 
 // Definiere eine Variable 'minValue', die als Startwert den ersten Wert
