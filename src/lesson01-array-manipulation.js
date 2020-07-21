@@ -2,13 +2,13 @@
 // Definiere ein Array mit den ersten 10 Primzahlen (hard-coded)
 let arr = [2, 3, 5, 7, 11, 13, 17, 19, 23, 29];
 
-// Füge mithilfe von .push(...) drei weitere beliebige Werte hinzu
+// Füge mithilfe von .add(...) drei weitere beliebige Werte hinzu
 arr.push(4, 5, 6);
 
 // Speichere in der Variablen 'indexOfFive', an welcher Stelle sich die 5 befindet
 let indexOfFive = arr.indexOf(5);
 
-// Entferne die 9 aus dem Array
+// Entferne die 5 aus dem Array
 arr.splice(indexOfFive, 1);
 
 // Ersetze das 'arr' mit einem Array, welches Quadratzahlen der ursprünglichen Zahlen enthält. Nutze dafür die for-Schleife

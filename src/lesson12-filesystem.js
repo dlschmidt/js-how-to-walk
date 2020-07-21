@@ -18,3 +18,4 @@ console.log(buffer.toString());
 
 // Gib den Inhalt einer zweiten Datei namens "lines.txt" zeilenweise aus, wobei jede
 // Ausgabe mit der Zeilennummer beginnen soll
+
